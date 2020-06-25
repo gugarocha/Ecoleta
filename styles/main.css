@@ -1,6 +1,7 @@
 :root {
     --title-color: #322153;
     --primary-color: #34cb79;
+    --secundary-color: #f0f0f5;
 }
 
 * {
@@ -12,7 +13,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: #f0f0f5;
+    background: var(--secundary-color);
 
     -webkit-font-smoothing: antialiased;
 }

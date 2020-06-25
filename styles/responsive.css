@@ -18,6 +18,25 @@
     #page-home main {
         align-items: center;
     }
+
+    #page-search-results {
+        grid-template-columns: 1fr;
+    }
+
+    #page-search-results main img {
+        height: 250px;
+    }
+}
+
+@media (max-width: 680px) {
+    #page-create-point form .field-group {
+        display: inline-block;
+        width: 100%;
+    }
+
+    form .field-group .field + .field {
+        margin-left: 0;
+    }
 }
 
 @media (min-width: 1700px) {
