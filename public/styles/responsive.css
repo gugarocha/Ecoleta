@@ -1,6 +1,6 @@
 @media (max-width: 900px) {
     #page-home {
-        background-position-x: 70vw;
+        background-position-x: 80vw;
     }
 
     #page-home .content {
@@ -10,7 +10,7 @@
 
     #page-home header a{
         position: absolute;
-        bottom: 48px;
+        bottom: 12px;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -48,5 +48,11 @@
 @media (max-height: 760px) {
     #page-home {
         background-position-y: 150px;
+    }
+}
+
+@media (max-height: 645px) {
+    #page-home {
+        background-size: 90vw 92vh;
     }
 }
